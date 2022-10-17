@@ -59,7 +59,7 @@ const App: React.FC = () => {
     <div className="App">
       <Layout>
         <Header>
-          <div className="logo">Liu680的服务器监控</div>
+          <div className="logo">🖥️ServerStatus🔌</div>
         </Header>
         <Content style={{ background: "#fff" }}>
           <Row justify="center">
