@@ -1,0 +1,21 @@
+{
+    "routes": [
+      {
+        "src": "/json/stats.json",
+        "dest": "https://liu680-production.up.railway.app/json/stats.json"
+      },
+      {
+        "src": "/detail",
+        "dest": "https://liu680-production.up.railway.app/detail"
+      },
+      {
+        "src": "/map",
+        "dest": "https://liu680-production.up.railway.app/map"
+      },
+      {
+        "src": "/i",
+        "dest": "https://liu680-production.up.railway.app/i"
+      }
+    ]
+  }
+  
