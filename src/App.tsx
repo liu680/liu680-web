@@ -75,9 +75,9 @@ const App: React.FC = () => {
           </Row>
         </Content>
         <Footer className="footer">
-          <a target="_blank" href="/detail">🗂️</a>
+          <a target="_blank" href="/detail">🗂️服务器基本信息</a>
           {" | "}
-          <a target="_blank" href="/map">🗺️</a>
+          <a target="_blank" href="/map">🗺️在地图上的位置</a>
         </Footer>
       </Layout>
     </div>
