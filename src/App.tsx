@@ -59,7 +59,7 @@ const App: React.FC = () => {
     <div className="App">
       <Layout>
         <Header>
-          <div className="logo">ServerStatus</div>
+          <div className="logo">Liu680的服务器监控</div>
         </Header>
         <Content style={{ background: "#fff" }}>
           <Row justify="center">
@@ -76,20 +76,6 @@ const App: React.FC = () => {
         </Content>
         <Footer className="footer">
           <a target="_blank" href="/detail">🗂️</a>
-          {" | "}
-          <a
-            href="https://github.com/krwu/ServerStatus-web"
-            rel="external noopener"
-          >
-            WebUI
-          </a>{" "}
-          for{" "}
-          <a
-            href="https://github.com/zdz/ServerStatus-Rust"
-            rel="external noopener"
-          >
-            ServerStatus-Rust 版
-          </a>
           {" | "}
           <a target="_blank" href="/map">🗺️</a>
         </Footer>
