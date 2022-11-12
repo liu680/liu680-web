@@ -1,6 +1,6 @@
 {
   "NAME": "Name",
-  "TYPE": "Type",
+  "TYPE": "Host",
   "LOC": "Location",
   "UPTIME": "Uptime",
   "LOAD": "Load",
