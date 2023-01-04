@@ -1,4 +1,6 @@
-echo "请选择需要安装的服务器架构"
+
+echo -e "\033[33m请问您安装的服务器架构是什么\033[0m"
+PS3="请选择:"
 select i in aarch64 x86_64 退出
 do
     case $i in
