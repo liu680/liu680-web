@@ -7,7 +7,7 @@ do
         echo -e "\033[33m(aarch64)架构安装开始\033[0m"
         # 下载被控端程序
         echo -e "\033[33m①.配置被控端程序\033[0m"
-        wget -c "stat_client"  -N -P /etc https://my.liu680.top/stat_client/client-aarch64 > /dev/null 2>&1
+        wget -N https://my.liu680.top/stat_client/client-aarch64 -O /etc/stat_client> /dev/null 2>&1
         # 访问被控端目录
         cd /etc
         # 给予被控端程序755权限
@@ -37,7 +37,7 @@ do
         echo -e "\033[33m(x86_64)架构安装开始\033[0m"
         # 下载被控端程序
         echo -e "\033[33m①.配置被控端程序\033[0m"
-        wget -c "stat_client"  -N -P /etc https://my.liu680.top/stat_client/client-x86_64 > /dev/null 2>&1
+        wget -N https://my.liu680.top/stat_client/client-x86_64 -O /etc/stat_client> /dev/null 2>&1
         # 访问被控端目录
         cd /etc
         # 给予被控端程序755权限
