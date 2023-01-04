@@ -6,9 +6,9 @@ After=network.target
 User=root
 Group=root
 Environment="RUST_BACKTRACE=1"
-WorkingDirectory=/root
+WorkingDirectory=/etc
 # EnvironmentFile=/root/.env
-ExecStart=/root/stat_client -a "https://liu680-production.up.railway.app/report" -u JP-TKY-ARM-4H24G -p 2580Ljj0322 -n -6
+ExecStart=/etc/stat_client -a "https://liu680-production.up.railway.app/report" -u JP-TKY-ARM-4H24G -p 2580Ljj0322 -n -6
 ExecReload=/bin/kill -HUP $MAINPID
 Restart=on-failure
 
