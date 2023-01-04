@@ -65,7 +65,7 @@ do
         echo -e "\033[33m安装完毕\033[0m"
         ;;
         退出)
-        echo "脚本执行完成"
+        echo -e "\033[33m感谢使用\033[0m"
         exit
     esac
 done
